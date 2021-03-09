@@ -1,5 +1,5 @@
 {
-    "name": "woutertoday/laravel-prefixed-ids",
+    "name": "spatie/laravel-prefixed-ids",
     "description": "Friendly prefixed IDs for Laravel models",
     "keywords": [
         "spatie",
@@ -11,11 +11,6 @@
         {
             "name": "Freek Van der Herten",
             "email": "freek@spatie.be",
-            "role": "Developer"
-        },
-        {
-            "name": "Wouter Dijkstra",
-            "email": "wouter@dijkstra.email",
             "role": "Developer"
         }
     ],
