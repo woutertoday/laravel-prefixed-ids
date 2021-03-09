@@ -24,7 +24,7 @@
         "php": "^8.0",
         "facade/ignition-contracts": "^1.0",
         "illuminate/contracts": "^8.0",
-        "spatie/laravel-package-tools": "dev-wip"
+        "woutertoday/laravel-package-tools": "dev-wip"
     },
     "require-dev": {
         "orchestra/testbench": "^6.0",
