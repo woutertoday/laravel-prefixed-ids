@@ -9,8 +9,12 @@ use Spatie\PrefixedIds\Commands\StubsCommand;
 
 class PrefixedIdsServiceProvider extends PackageServiceProvider
 {
-    public function boot()
+    public function configurePackage(Package $package): void
     {
+        $package
+            ->name('laravel-prefixed-ids')
+            ->hasConfigFile();
+
         $this->registerCommands();
     }
 
@@ -21,12 +25,5 @@ class PrefixedIdsServiceProvider extends PackageServiceProvider
         $this->commands([
             StubsCommand::class,        // prefixedids:stubs
         ]);
-    }
-
-    public function configurePackage(Package $package): void
-    {
-        $package
-            ->name('laravel-prefixed-ids')
-            ->hasConfigFile();
     }
 }
