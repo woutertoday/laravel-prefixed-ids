@@ -20,14 +20,14 @@ class StubsCommand extends Command
 
         file_put_contents(
             $stubsPath.'/model.stub',
-            file_get_contents(__DIR__.'/model.stub')
+            file_get_contents(__DIR__.'/../../stubs/model.stub')
         );
 
         file_put_contents(
             $stubsPath.'/migration.create.stub',
-            file_get_contents(__DIR__.'/migration.create.stub')
+            file_get_contents(__DIR__.'/../../stubs/migration.create.stub')
         );
 
-        $this->info('Stubs published successfully.');
+        $this->info('Custom stubs published successfully.');
     }
 }
