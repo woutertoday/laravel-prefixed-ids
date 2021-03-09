@@ -1,11 +1,11 @@
 {
-    "name": "woutertoday/laravel-prefixed-ids",
+    "name": "spatie/laravel-prefixed-ids",
     "description": "Friendly prefixed IDs for Laravel models",
     "keywords": [
         "spatie",
         "laravel-prefixed-ids"
     ],
-    "homepage": "https://github.com/woutertoday/laravel-prefixed-ids",
+    "homepage": "https://github.com/spatie/laravel-prefixed-ids",
     "license": "MIT",
     "authors": [
         {
