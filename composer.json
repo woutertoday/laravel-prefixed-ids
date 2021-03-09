@@ -1,5 +1,5 @@
 {
-    "name": "woutertoday/laravel-prefixed-ids",
+    "name": "spatie/laravel-prefixed-ids",
     "description": "Friendly prefixed IDs for Laravel models",
     "keywords": [
         "spatie",
@@ -14,17 +14,11 @@
             "role": "Developer"
         }
     ],
-    "repositories": [
-        {
-            "type": "vcs",
-            "url": "https://github.com/woutertoday/laravel-package-tools"
-        }
-    ],
     "require": {
         "php": "^8.0",
         "facade/ignition-contracts": "^1.0",
         "illuminate/contracts": "^8.0",
-        "woutertoday/laravel-package-tools": "dev-wip"
+        "spatie/laravel-package-tools": "^1.1"
     },
     "require-dev": {
         "orchestra/testbench": "^6.0",
@@ -52,7 +46,7 @@
         "sort-packages": true
     },
     "minimum-stability": "dev",
-    "prefer-stable": false,
+    "prefer-stable": true,
     "extra": {
         "laravel": {
             "providers": [
